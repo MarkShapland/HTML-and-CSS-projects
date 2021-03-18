@@ -1,0 +1,15 @@
+table {
+	border: 5px solid #000000;
+}
+td:hover {
+	background-color: #ff0000 ;
+	color: #ffff99;
+	}
+tr, th {
+	background-color:#990000;
+	color: #94b8b8;
+	}
+tr, td {
+	background-color:#fff2e6 ;
+	color:#000000;
+	}
