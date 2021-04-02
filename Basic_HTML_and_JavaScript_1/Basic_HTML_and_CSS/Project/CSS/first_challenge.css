@@ -1,0 +1,81 @@
+
+img {
+    filter: grayscale(100%);
+    border: 3px solid greenyellow;
+    border-radius: 15px;
+    }
+
+body {
+    text-align: center;
+    font-weight: bold;
+} 
+
+table, th, td {
+    border: 1px solid black;
+    
+}
+
+th, td {
+    padding:10px
+}
+
+th {
+    background-color: chartreuse;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: crimson;
+}
+
+
+.centered {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: (-50%, -50%);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: darkgreen;
+    position: fixed;
+    top: 0;
+   width: 100%;
+  
+}
+
+.navbar a {
+    float:left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 30px;
+}
+
+.navbar a:hover {
+    background: lightcyan;
+    color: lightpink;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    color: gray ;
+    height:15em;
+    width:50%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p:hover {
+    background-color: indigo;
+}
+
+
+
